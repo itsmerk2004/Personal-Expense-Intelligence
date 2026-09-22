@@ -1,0 +1,9 @@
+Transaction Date,Category,Description,Amount,Payment Method,Merchant,Notes
+2026-09-01,Food,Breakfast,250,UPI,Cafe Coffee,Morning meal
+2026-09-02,Transport,Fuel,1500,UPI,Petrol Pump,Vehicle fuel
+2026-09-03,Shopping,Groceries,2200,Card,Supermarket,Monthly groceries
+2026-09-04,Bills,Internet,799,UPI,ISP,Monthly bill
+2026-09-05,Food,Dinner,650,Card,Restaurant,Family dinner
+2026-09-06,Entertainment,Movie,500,Card,Cinema,Weekend movie
+2026-09-07,Health,Medicine,850,Cash,Medical Store,Medicines
+2026-09-08,Shopping,Clothes,1800,Card,Clothing Store,New clothes

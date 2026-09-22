@@ -1,0 +1,31 @@
+expense_date,category,description,amount,payment_method,merchant
+2026-09-01,Food,Lunch,180,UPI,Restaurant A
+2026-09-01,Transport,Bus,40,Cash,KSRTC
+2026-09-02,Shopping,Shirt,850,Card,Online Store
+2026-09-02,Food,Coffee,120,UPI,Cafe
+2026-09-03,Bills,Internet,699,UPI,ISP
+2026-09-03,Entertainment,Movie,350,Card,Cinema
+2026-09-04,Food,Dinner,420,UPI,Restaurant B
+2026-09-04,Transport,Auto,180,Cash,Local Auto
+2026-09-05,Shopping,Shoes,1500,Card,Online Store
+2026-09-05,Food,Lunch,200,UPI,Restaurant A
+2026-09-06,Health,Medicine,450,Cash,Medical Store
+2026-09-06,Transport,Bus,40,Cash,KSRTC
+2026-09-07,Bills,Electricity,1250,UPI,Electricity Board
+2026-09-07,Food,Dinner,550,Card,Restaurant C
+2026-09-08,Shopping,Headphones,2200,Card,Electronics Store
+2026-09-08,Food,Breakfast,150,Cash,Hotel
+2026-09-09,Entertainment,OTT Subscription,299,Card,Streaming Service
+2026-09-09,Transport,Fuel,1200,UPI,Petrol Pump
+2026-09-10,Food,Lunch,220,UPI,Restaurant A
+2026-09-10,Health,Pharmacy,300,UPI,Medical Store
+2026-09-11,Shopping,T-Shirt,600,Card,Clothing Store
+2026-09-11,Food,Dinner,480,UPI,Restaurant B
+2026-09-12,Transport,Auto,160,Cash,Local Auto
+2026-09-12,Bills,Mobile Recharge,399,UPI,Telecom
+2026-09-13,Food,Lunch,190,Cash,Restaurant A
+2026-09-13,Entertainment,Game,500,Card,Game Store
+2026-09-14,Shopping,Backpack,1200,UPI,Online Store
+2026-09-14,Food,Dinner,620,Card,Restaurant C
+2026-09-15,Transport,Fuel,1000,UPI,Petrol Pump
+2026-09-15,Bills,Internet,699,UPI,ISP

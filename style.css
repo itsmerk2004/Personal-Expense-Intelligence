@@ -1,0 +1,351 @@
+/* =========================================================
+   PERSONAL EXPENSE INTELLIGENCE
+   Dashboard Styles
+   ========================================================= */
+
+
+/* ---------- Main App ---------- */
+
+.stApp {
+    background-color: #f5f7fb;
+}
+
+
+/* ---------- Main Content ---------- */
+
+.block-container {
+    max-width: 1400px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+
+/* ---------- Header ---------- */
+
+.dashboard-header {
+    background: linear-gradient(
+        135deg,
+        #111827 0%,
+        #1e3a8a 100%
+    );
+
+    padding: 28px 32px;
+    border-radius: 18px;
+    margin-bottom: 28px;
+
+    box-shadow:
+        0 8px 25px rgba(15, 23, 42, 0.12);
+}
+
+.dashboard-title {
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.dashboard-subtitle {
+    color: #dbeafe;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.dashboard-period {
+    color: #bfdbfe;
+    font-size: 13px;
+    margin-top: 12px;
+}
+
+
+/* ---------- KPI Cards ---------- */
+
+.kpi-card {
+    background: #ffffff;
+
+    padding: 22px;
+
+    border-radius: 16px;
+
+    border: 1px solid #e5e7eb;
+
+    box-shadow:
+        0 4px 14px rgba(15, 23, 42, 0.06);
+
+    min-height: 125px;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.kpi-card:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 8px 22px rgba(15, 23, 42, 0.10);
+}
+
+.kpi-label {
+    color: #64748b;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.kpi-value {
+    color: #0f172a;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.kpi-icon {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+
+/* ---------- Section Titles ---------- */
+
+.section-title {
+    color: #0f172a;
+    font-size: 22px;
+    font-weight: 700;
+
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+
+/* ---------- Insight Cards ---------- */
+
+.insight-card {
+    background: #ffffff;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    border: 1px solid #e5e7eb;
+
+    box-shadow:
+        0 4px 12px rgba(15, 23, 42, 0.05);
+
+    min-height: 110px;
+}
+
+.insight-title {
+    color: #64748b;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.insight-value {
+    color: #111827;
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+
+/* ---------- Chart Containers ---------- */
+
+.chart-card {
+    background: #ffffff;
+
+    padding: 20px;
+
+    border-radius: 16px;
+
+    border: 1px solid #e5e7eb;
+
+    box-shadow:
+        0 4px 12px rgba(15, 23, 42, 0.05);
+}
+
+
+/* ---------- Sidebar ---------- */
+
+[data-testid="stSidebar"] {
+    background-color: #111827;
+}
+
+
+/* Sidebar headings */
+
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3 {
+    color: #ffffff;
+}
+
+
+/* Sidebar normal text */
+
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] label {
+    color: #e5e7eb;
+}
+
+
+/* ---------- Sidebar Selectbox ---------- */
+
+[data-testid="stSidebar"] [data-testid="stSelectbox"] label {
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+[data-testid="stSidebar"] [data-baseweb="select"] > div {
+    background-color: #1f2937 !important;
+    border: 1px solid #4b5563 !important;
+    border-radius: 10px !important;
+}
+
+/* Selected value inside selectbox */
+
+[data-testid="stSidebar"] [data-baseweb="select"] div[data-baseweb="select"] {
+    color: #111827 !important;
+}
+
+[data-testid="stSidebar"] [data-baseweb="select"] span {
+    color: #111827 !important;
+}
+
+[data-testid="stSidebar"] [role="option"] {
+    color: #111827 !important;
+    background-color: #ffffff !important;
+}
+
+[data-testid="stSidebar"] [role="option"]:hover {
+    background-color: #e5e7eb !important;
+    color: #111827 !important;
+}
+
+/* Visible selected value */
+
+[data-testid="stSidebar"] [data-baseweb="select"] [aria-selected="true"] {
+    color: #111827 !important;
+}
+
+[data-testid="stSidebar"] [data-baseweb="select"] input {
+    color: #111827 !important;
+}
+
+
+/* Sidebar file uploader */
+
+[data-testid="stSidebar"] [data-testid="stFileUploader"] {
+    color: #ffffff;
+}
+
+[data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] {
+    background-color: #1f2937;
+    border: 1px dashed #4b5563;
+    border-radius: 10px;
+}
+
+
+/* Sidebar date input */
+
+[data-testid="stSidebar"] input {
+    color: #ffffff;
+}
+
+
+/* Sidebar buttons */
+
+[data-testid="stSidebar"] button {
+    color: #ffffff;
+    background-color: #1f2937;
+    border: 1px solid #374151;
+    border-radius: 10px;
+}
+
+
+/* Sidebar button hover */
+
+[data-testid="stSidebar"] button:hover {
+    background-color: #374151;
+}
+
+
+/* ---------- Sidebar Buttons ---------- */
+
+[data-testid="stSidebar"] button {
+    border-radius: 10px;
+    border: 1px solid #374151;
+}
+
+
+/* ---------- Dataframes ---------- */
+
+[data-testid="stDataFrame"] {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+/* ---------- Download Button ---------- */
+
+.stDownloadButton button {
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+
+/* ---------- General Buttons ---------- */
+
+.stButton button {
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+
+/* ---------- Dividers ---------- */
+
+hr {
+    border: none;
+    height: 1px;
+    background: #e5e7eb;
+    margin: 30px 0;
+}
+
+
+/* ---------- Responsive Design ---------- */
+
+@media (max-width: 768px) {
+
+    .dashboard-title {
+        font-size: 27px;
+    }
+
+    .dashboard-subtitle {
+        font-size: 14px;
+    }
+
+    .kpi-value {
+        font-size: 24px;
+    }
+
+}
+
+/* =========================================================
+   FIX: Sidebar Selectbox Selected Text
+   ========================================================= */
+
+[data-testid="stSidebar"] [data-testid="stSelectbox"] [data-baseweb="select"] {
+    background-color: #ffffff !important;
+}
+
+[data-testid="stSidebar"] [data-testid="stSelectbox"] [data-baseweb="select"] * {
+    color: #000000 !important;
+}
+
+[data-testid="stSidebar"] [data-testid="stSelectbox"] input {
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+}
+
+[data-testid="stSidebar"] [data-testid="stSelectbox"] svg {
+    fill: #000000 !important;
+}
